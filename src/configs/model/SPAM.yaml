@@ -1,0 +1,29 @@
+embedding_size: 64
+feat_embed_dim: 64
+weight_size: [64, 64]
+
+learning_rate_scheduler: [0.96,50]
+lambda_coeff: 0.9
+learning_rate: 0.001
+n_mm_layers: 1
+n_ui_layers: 2
+knn_k: 10
+retain_edge: 0.3
+mm_image_weight: 0.1
+mm_caption_weight: [0.2]
+
+user_pref_caption_file: 'user_pref_caption.npy'
+user_pref_text_file: 'user_pref_text.npy'
+
+proto_temp: [0.01]
+proto_weight: [0.001]
+proto_hidden: 256
+logvar_min: -4.0
+logvar_max: 2.0
+n_prototypes: [4]
+
+use_pcsa: false
+proto_anchor_tau: [0]
+lambda_div: [0]
+
+hyper_parameters: ["mm_caption_weight", "n_prototypes", "proto_temp", "proto_weight", "proto_anchor_tau", "lambda_div"]
