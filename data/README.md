@@ -1,6 +1,6 @@
 ## Dataset
 
-We provide two processed datasets: Baby, Sports, Clothing
+We provide two processed datasets: Baby, Sports
 
 Download from Google Drive: [Baby/Sports/Clothing](https://drive.google.com/drive/folders/1tU4IxYbLXMkp_DbIOPGvCry16uPvolLk)
 
